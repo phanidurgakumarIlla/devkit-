@@ -1,0 +1,40 @@
+.body{
+    background-color:  rgb(217, 219, 243);
+}
+.main {
+    display: flex;
+    background-color: white;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex: 0.5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align:center;
+    height: 500px;
+    display: flex;
+    
+}
+nav{
+    margin-left: 34px;
+    align-items: center;
+}
+.right{
+align-items: center;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
